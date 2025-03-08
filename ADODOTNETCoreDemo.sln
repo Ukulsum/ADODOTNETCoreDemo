@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADODOTNETCoreDemo", "ADODOTNETCoreDemo\ADODOTNETCoreDemo.csproj", "{47DD5EC5-DAEC-4EFA-BBE6-47B2F4DF39E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADODOTNETCoreDemo", "ADODOTNETCoreDemo\ADODOTNETCoreDemo.csproj", "{47DD5EC5-DAEC-4EFA-BBE6-47B2F4DF39E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create_Table _ADODOTNETCore", "Create_Table _ADODOTNETCore\Create_Table _ADODOTNETCore.csproj", "{DE5B2BCD-521E-4A27-B93E-51E63D2CA835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Create_Table _ADODOTNETCore", "Create_Table _ADODOTNETCore\Create_Table _ADODOTNETCore.csproj", "{DE5B2BCD-521E-4A27-B93E-51E63D2CA835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inserting_Record_ADODOTNETCore", "Inserting_Record_ADODOTNETCore\Inserting_Record_ADODOTNETCore.csproj", "{425765FB-8CB1-424D-BB09-9EAEAF178E18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inserting_Record_ADODOTNETCore", "Inserting_Record_ADODOTNETCore\Inserting_Record_ADODOTNETCore.csproj", "{425765FB-8CB1-424D-BB09-9EAEAF178E18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrieve_All_Records_ADODOTNETCore", "Retrieve_All_Records_ADODOTNETCore\Retrieve_All_Records_ADODOTNETCore.csproj", "{DF307651-0413-4ED4-8E4E-111E3534CC08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Retrieve_All_Records_ADODOTNETCore", "Retrieve_All_Records_ADODOTNETCore\Retrieve_All_Records_ADODOTNETCore.csproj", "{DF307651-0413-4ED4-8E4E-111E3534CC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retrieve_Specific_Record_ADODOTNETCore", "Retrieve_Specific_Record_ADODOTNETCore\Retrieve_Specific_Record_ADODOTNETCore.csproj", "{ECB1C35A-8ABC-47DC-B1AB-861368DCAFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deleting_Record_ADODOTNETCore", "Deleting_Record_ADODOTNETCore\Deleting_Record_ADODOTNETCore.csproj", "{CD4BDF75-BB4A-471B-A9DA-7C9B9EB6F1E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{DF307651-0413-4ED4-8E4E-111E3534CC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF307651-0413-4ED4-8E4E-111E3534CC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF307651-0413-4ED4-8E4E-111E3534CC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB1C35A-8ABC-47DC-B1AB-861368DCAFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB1C35A-8ABC-47DC-B1AB-861368DCAFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB1C35A-8ABC-47DC-B1AB-861368DCAFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB1C35A-8ABC-47DC-B1AB-861368DCAFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4BDF75-BB4A-471B-A9DA-7C9B9EB6F1E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4BDF75-BB4A-471B-A9DA-7C9B9EB6F1E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4BDF75-BB4A-471B-A9DA-7C9B9EB6F1E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4BDF75-BB4A-471B-A9DA-7C9B9EB6F1E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
